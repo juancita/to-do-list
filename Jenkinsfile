@@ -1,2 +1,2 @@
-@Library('devops@main') _
+@Library('devops@feature') _
 pipelineGeneral()
