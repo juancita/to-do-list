@@ -25,7 +25,10 @@
     "resetMocks": false,
     "setupFiles": [
       "jest-localstorage-mock"
-    ]
+    ],
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true,
+    "coverageReporters": ["lcov", "text-summary"]
   },
   "homepage": "https://github.com/whid-bb/to-do-list#readme",
   "devDependencies": {
@@ -54,4 +57,5 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
   }
+  
 }
