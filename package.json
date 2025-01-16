@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "watch": "webpack --config webpack.config.js --watch",
+    "watch": "webpack --config webpack.config.js",
     "start": "webpack serve --config webpack.config.js ",
-    "test": "jest editFunctions.test.js --watch",
-    "watch-jest": "jest --watch",
-    "watch-add": "jest addDelete.test.js --watch",
-    "watch-edit": "jest editFunctions.test.js --watch"
+    "test": "jest editFunctions.test.js",
+    "watch-jest": "jest",
+    "watch-add": "jest addDelete.test.js",
+    "watch-edit": "jest editFunctions.test.js"
   },
   "repository": {
     "type": "git",
